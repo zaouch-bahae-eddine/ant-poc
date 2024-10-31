@@ -21,9 +21,7 @@
           <a-button style="margin-right: 8px" @click="onClose">Cancel</a-button>
           <a-button type="primary" @click="onClose">Submit</a-button>
         </template>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
+        <Menu />
       </a-drawer>
       <a-layout>
         <a-layout-header
